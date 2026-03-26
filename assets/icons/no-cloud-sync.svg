@@ -1,0 +1,6 @@
+<svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cloud Outline (Deep Slate) -->
+  <path d="M17.5 19C19.921 19 22 16.921 22 14.5C22 12.079 20.079 10 17.5 10C17.211 10 16.93 10.027 16.659 10.078C15.938 7.658 13.673 6 11 6C7.686 6 5 8.686 5 12C5 12.181 5.008 12.36 5.024 12.537C3.298 13.109 2 14.654 2 16.5C2 18.985 4.015 21 6.5 21" stroke="#475569" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+  <!-- Block Strike (Matte Black) -->
+  <path d="M3 3L21 21" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
