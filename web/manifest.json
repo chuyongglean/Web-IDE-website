@@ -1,0 +1,22 @@
+{
+    "name": "Web IDE: AI Code Editor",
+    "short_name": "Web IDE",
+    "start_url": "../index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "description": "Code & Build Websites Anywhere — Right From Your iPhone.",
+    "icons": [
+        {
+            "src": "../icons/webideappicon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "../icons/webideappicon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
