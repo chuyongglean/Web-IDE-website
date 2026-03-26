@@ -1,0 +1,221 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>About Us | Web IDE: AI Code Editor</title>
+    <meta name="description" content="Learn about the mission behind Web IDE — the world's most advanced AI-powered mobile code editor.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="style.css"></head>
+<body class="subpage">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="nav-logo">
+                <img src="../icons/webideappicon.png" alt="Web IDE Logo" class="header-logo-img">
+                <span class="logo-text">Web IDE</span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="../index.html#features" class="nav-link">Features</a>
+                <a href="../index.html#deep-dive" class="nav-link">Capabilities</a>
+                <a href="about.html" class="nav-link active">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="https://apps.apple.com/app/id6751813522" class="btn btn-primary nav-btn">
+                    <i class="fa-brands fa-apple"></i> Get the App
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-inner">
+            <a href="../index.html#features" class="mobile-link">Features</a>
+            <a href="../index.html#deep-dive" class="mobile-link">Capabilities</a>
+            <a href="about.html" class="mobile-link">About Us</a>
+            <a href="contact.html" class="mobile-link">Contact</a>
+            <a href="https://apps.apple.com/app/id6751813522" class="btn btn-primary mobile-btn">
+                <i class="fa-brands fa-apple"></i> Download on App Store
+            </a>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Statement -->
+        <section class="about-hero section-padding">
+            <div class="container text-center reveal-up">
+                <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 5rem); font-weight: 800; letter-spacing: -0.05em; margin-bottom: var(--spacing-4);">Decoupling power from the desktop.</h1>
+                <p class="section-subtitle" style="font-size: clamp(1.25rem, 2.5vw, 1.5rem); max-width: 800px; margin: 0 auto; color: var(--color-text-muted); line-height: 1.6;">We engineer uncompromising, hardware-accelerated developer tools for iOS and iPadOS. Because your deployment pipeline shouldn't pause when you step away from your workstation.</p>
+            </div>
+        </section>
+
+        <!-- Bento Box Features Grid -->
+        <section class="bento-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <h2 class="section-title">Architected for Velocity</h2>
+                    <p class="section-subtitle">Zero-latency compilation, native performance, and resilient off-grid capabilities.</p>
+                </div>
+                <div class="bento-grid">
+                    <div class="bento-card speed-card reveal-up">
+                        <div class="bento-icon"><i class="fa-solid fa-bolt"></i></div>
+                        <h3 class="bento-title">Uncompromising Speed</h3>
+                        <p class="bento-desc">Optimized rendering pipelines and minimal DOM overhead ensure that Web IDE operates at native 60fps, even when parsing complex <span class="tech-term">Abstract Syntax Trees</span>. Keystrokes register instantaneously, bypassing the latency typical of mobile text editors.</p>
+                    </div>
+                    <div class="bento-card pwa-card reveal-up" style="transition-delay: 0.1s;">
+                        <div class="bento-icon"><i class="fa-brands fa-apple"></i></div>
+                        <h3 class="bento-title">Native Integration</h3>
+                        <p class="bento-desc">Deeply integrated with iOS capabilities. We leverage <span class="tech-term">Metal</span> for UI rendering and <span class="tech-term">WebAssembly</span> for near-native execution of complex client-side libraries and tools directly on your A-series silicon.</p>
+                    </div>
+                    <div class="bento-card offline-card reveal-up" style="transition-delay: 0.2s;">
+                        <div class="bento-icon"><i class="fa-solid fa-wifi"></i></div>
+                        <h3 class="bento-title">Absolute Offline Autonomy</h3>
+                        <p class="bento-desc">Total network independence. Write, execute, and debug your local repository without a single HTTP request. The editor caches your entire workspace, from code files to imported libraries and assets, ensuring your development environment functions flawlessly offline.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Sovereignty Protocol -->
+        <section class="sovereignty-section section-padding">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="security-protocol-tag"><i class="fa-solid fa-shield-halved"></i> PROTOCOL: LOCAL_FIRST_V1.0</span>
+                    <h2 class="section-title">Data Sovereignty Protocol</h2>
+                    <p class="section-subtitle" style="margin-left: 0; text-align: left;">Your source code is strictly your intellectual property. We provide the compiler; you retain the control. Our architecture guarantees zero telemetry on your proprietary algorithms.</p>
+                </div>
+
+                <div class="manifesto-block reveal-up">
+                    <h3 class="manifesto-title">The Local-First Manifesto</h3>
+                    <p>In an era of invasive cloud syncs and centralized vulnerabilities, Web IDE operates on a strict zero-knowledge paradigm. We believe developers require absolute autonomy. Your workspace is mathematically private by default. By eliminating external database dependencies, we don't just secure your data. We completely remove our access to it.</p>
+                </div>
+
+                <div class="technical-spec-container reveal-up">
+                    <h3 class="spec-title">Technical Specifications</h3>
+                    <div class="spec-table-wrapper">
+                        <table class="spec-table">
+                            <thead>
+                                <tr>
+                                    <th>Architecture Component</th>
+                                    <th>Technical Implementation</th>
+                                    <th>Security Layer</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Local File System</strong></td>
+                                    <td><code class="tech-term">IndexedDB / File System Access API</code></td>
+                                    <td>Sandboxed Hardware Encryption</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>AI Code Generation</strong></td>
+                                    <td><code class="tech-term">TLS 1.3 / Stateless Execution</code></td>
+                                    <td>Zero-Retention Policy (No Training)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Embedded Terminal</strong></td>
+                                    <td><code class="tech-term">WASM / Shell-Polyfill</code></td>
+                                    <td>Memory-Safe Isolated Runtime</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Version Control</strong></td>
+                                    <td><code class="tech-term">isomorphic-git</code></td>
+                                    <td>Client-Side Cryptographic Signing</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Founder's Blueprint Section -->
+        <section class="creator-section section-padding bg-light">
+            <div class="container">
+                <div class="architect-card reveal-up">
+                    <div class="architect-image-wrapper">
+                        <img src="../image/Chuyongglean.jpg" alt="Chuyong Glean - Founder &amp; Lead Architect" class="architect-image" loading="lazy">
+                    </div>
+                    <div class="architect-info">
+                        <span class="architect-title">Founder &amp; Lead Architect</span>
+                        <h2 class="architect-name">Chuyong Glean</h2>
+                        <p class="architect-bio">
+                            Chuyong is a Full-Stack Systems Engineer and the principal architect behind Web IDE. Frustrated by the lack of robust, compiler-grade tools for mobile operating systems, he built an editor that treats iOS as a first-class citizen rather than an afterthought.
+                        </p>
+                        <p class="architect-bio">
+                            His focus centers on optimizing <span class="tech-term">JavaScript engines</span> for touch interfaces, aggressively reducing memory footprints, and implementing on-device AI that understands deep architectural context without exposing proprietary code to public models.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Join Us CTA -->
+        <section class="final-cta section-padding reveal-zoom">
+            <div class="container text-center">
+                <h2 class="cta-title">Become part of the journey.</h2>
+                <p class="cta-subtitle">Start building your next big idea today with Web IDE.</p>
+                <a href="https://apps.apple.com/app/id6751813522" class="btn btn-large btn-black">
+                    <div class="btn-content">
+                        <i class="fa-brands fa-apple fa-2x"></i>
+                        <div class="btn-text-group">
+                            <span class="btn-subtitle">Download on the</span>
+                            <span class="btn-title">App Store</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col brand-col">
+                <a href="../index.html" class="footer-logo">
+                    <img src="../icons/webideappicon.png" alt="Web IDE Logo" class="footer-logo-img">
+                    <span class="logo-text">Web IDE</span>
+                </a>
+                <p class="footer-desc">The most advanced, AI-powered mobile code editor for your web projects.</p>
+                <div class="social-links">
+                    <a href="https://x.com/Chuyongglean" target="_blank"><svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+                    <a href="https://github.com/Chuyongglean" target="_blank"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                    <a href="https://facebook.com/Chuyongglean.1" target="_blank"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Product</h4>
+                <ul class="footer-links">
+                    <li><a href="../index.html#features">Features</a></li>
+                    <li><a href="../index.html#preview">Screenshots</a></li>
+                    <li><a href="../index.html#reviews">Reviews</a></li>
+                    <li><a href="../index.html#comparison">Compare</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms &amp; Conditions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2024 Web IDE. All rights reserved.</p>
+            <p class="contact-email"><a href="mailto:webideapp@gmail.com">webideapp@gmail.com</a></p>
+        </div>
+    </footer>
+    <script src="../script.js"></script>
+
+<script src="../web/sw.js"></script><script src="web/sw.js"></script><script src="script.js"></script></body></html>
