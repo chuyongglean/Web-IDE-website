@@ -1,0 +1,223 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Contact Support | Web IDE: AI Code Editor</title>
+    <meta name="description" content="Get in touch with the Web IDE support team. We're here to help you build better websites from your iPhone and iPad.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="style.css"></head>
+<body class="subpage">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="nav-logo">
+                <img src="../icons/webideappicon.png" alt="Web IDE Logo" class="header-logo-img">
+                <span class="logo-text">Web IDE</span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="../index.html#features" class="nav-link">Features</a>
+                <a href="../index.html#deep-dive" class="nav-link">Capabilities</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="https://apps.apple.com/app/id6751813522" class="btn btn-primary nav-btn">
+                    <i class="fa-brands fa-apple"></i> Get the App
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-inner">
+            <a href="../index.html#features" class="mobile-link">Features</a>
+            <a href="../index.html#deep-dive" class="mobile-link">Capabilities</a>
+            <a href="about.html" class="mobile-link">About Us</a>
+            <a href="contact.html" class="mobile-link">Contact</a>
+            <a href="https://apps.apple.com/app/id6751813522" class="btn btn-primary mobile-btn">
+                <i class="fa-brands fa-apple"></i> Download on App Store
+            </a>
+        </div>
+    </div>
+
+    <main>
+        <!-- Contact Hero -->
+        <section class="contact-hero section-padding bg-light">
+            <div class="container">
+                <div class="hero-content text-center reveal-up">
+                    <span class="badge mb-2">Get in Touch</span>
+                    <h1 class="hero-title">We're here to help.</h1>
+                    <p class="section-subtitle">Have a question about features, billing, or need technical assistance? Our team is ready to assist you.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form & Sidebar -->
+        <section class="contact-section section-padding">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Form Column -->
+                    <div class="contact-form-container reveal-left">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="Name" placeholder="John Doe" required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="Email" placeholder="john@example.com" required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="Subject">
+                                    <option value="support">Technical Support</option>
+                                    <option value="billing">Billing Inquiry</option>
+                                    <option value="feedback">Feedback &amp; Suggestions</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="Body" rows="6" placeholder="How can we help you?" required=""></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-black btn-large w-full">
+                                Send Message <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Sidebar Column -->
+                    <div class="contact-sidebar reveal-right">
+                        <div class="sidebar-card">
+                            <h3>Support Information</h3>
+                            <ul class="contact-info-list">
+                                <li>
+                                    <div class="info-icon">
+                                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                    </div>
+                                    <div class="info-text">
+                                        <strong>Email Us</strong>
+                                        <div class="email-interaction-wrapper">
+                                            <a href="mailto:webideapp@gmail.com" class="email-link">webideapp@gmail.com</a>
+                                            <button class="copy-email-btn" data-email="webideapp@gmail.com" aria-label="Copy email address">
+                                                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                                <span class="tooltip">Copy</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+                                    <div class="info-text">
+                                        <strong>Response Time</strong>
+                                        <span>Typically within 24 hours</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="info-icon"><i class="fa-solid fa-globe"></i></div>
+                                    <div class="info-text">
+                                        <strong>Community</strong>
+                                        <a href="https://github.com/Chuyongglean" target="_blank">GitHub Discussions</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="info-icon">
+                                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .018 5.396.015 12.03c0 2.12.554 4.189 1.602 6.006L0 24l6.149-1.613a11.77 11.77 0 005.9 1.532h.005c6.634 0 12.032-5.396 12.035-12.03a11.75 11.75 0 00-3.517-8.482z"></path></svg>
+                                    </div>
+                                    <div class="info-text">
+                                        <strong>WhatsApp Community</strong>
+                                        <a href="https://whatsapp.com/channel/0029VbBN8T76GcG5S3vmz22G" target="_blank" rel="noopener" class="community-link-highlight">Join our Channel</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar-card bg-accent-soft">
+                            <h3>Follow Us</h3>
+                            <p>Stay updated with the latest releases and coding tips.</p>
+                            <div class="social-links contact-socials">
+                                <a href="https://x.com/Chuyongglean" target="_blank"><svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+                                <a href="https://github.com/Chuyongglean" target="_blank"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                                <a href="https://facebook.com/Chuyongglean.1" target="_blank"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Snippet -->
+        <section class="faq-snippet section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Common Questions</h2>
+                </div>
+                <div class="feature-grid">
+                    <div class="feature-box reveal-up">
+                        <h3 class="feature-title">Is Web IDE free?</h3>
+                        <p class="feature-desc">The basic editor is free to use. Premium features like AI assistance and instant publishing require a subscription.</p>
+                    </div>
+                    <div class="feature-box reveal-up" style="transition-delay: 0.1s;">
+                        <h3 class="feature-title">Offline Support?</h3>
+                        <p class="feature-desc">Yes! You can code and manage files entirely offline. Internet is only required for AI queries and publishing.</p>
+                    </div>
+                    <div class="feature-box reveal-up" style="transition-delay: 0.2s;">
+                        <h3 class="feature-title">What languages are supported?</h3>
+                        <p class="feature-desc">We support full syntax highlighting for HTML, CSS, JS, Python, PHP, SQL, Markdown, and more.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col brand-col">
+                <a href="../index.html" class="footer-logo">
+                    <img src="../icons/webideappicon.png" alt="Web IDE Logo" class="footer-logo-img">
+                    <span class="logo-text">Web IDE</span>
+                </a>
+                <p class="footer-desc">The most advanced, AI-powered mobile code editor for your web projects.</p>
+                <div class="social-links">
+                    <a href="https://x.com/Chuyongglean" target="_blank"><svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+                    <a href="https://github.com/Chuyongglean" target="_blank"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                    <a href="https://facebook.com/Chuyongglean.1" target="_blank"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Product</h4>
+                <ul class="footer-links">
+                    <li><a href="../index.html#features">Features</a></li>
+                    <li><a href="../index.html#preview">Screenshots</a></li>
+                    <li><a href="../index.html#reviews">Reviews</a></li>
+                    <li><a href="../index.html#comparison">Compare</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="privacy.html" class="footer-legal-link">Privacy Policy</a></li>
+                    <li><a href="terms.html" class="footer-legal-link">Terms &amp; Conditions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© <script>document.write(new Date().getFullYear())</script> Web IDE. All rights reserved.</p>
+            <p class="contact-email"><a href="mailto:webideapp@gmail.com">webideapp@gmail.com</a></p>
+        </div>
+    </footer>
+    <script src="../script.js"></script>
+
+<script src="script.js"></script><script src="web/sw.js"></script><script src="../web/sw.js"></script></body></html>
