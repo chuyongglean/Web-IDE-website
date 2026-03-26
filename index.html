@@ -1,0 +1,960 @@
+<!DOCTYPE html><html lang="en"><head>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KS1L2T4CJC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KS1L2T4CJC');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Web IDE - The Best AI Powered Mobile Code Editor App</title>
+    <meta name="description" content="Web IDE is the professional web editor and leading code editor for HTML, CSS, and JS. Discover the best coding apps for iPhone and iPad to build, debug, and publish websites instantly.">
+    <link rel="manifest" href="web/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="apple-touch-icon" href="icons/webideappicon.png">
+    <link rel="icon" type="image/png" href="icons/webideappicon.png">
+    
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <img src="icons/webideappicon.png" alt="Web IDE Logo" class="header-logo-img">
+                <span class="logo-text">Web IDE</span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#deep-dive" class="nav-link">Capabilities</a>
+                <a href="pages/about.html" class="nav-link">About</a>
+                <a href="pages/contact.html" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="https://apps.apple.com/app/id6751813522" class="btn btn-primary nav-btn">
+                    <i class="fa-brands fa-apple"></i> Get the App
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-inner">
+            <a href="#features" class="mobile-link">Features</a>
+            <a href="#deep-dive" class="mobile-link">Capabilities</a>
+            <a href="pages/about.html" class="mobile-link">About Us</a>
+            <a href="pages/contact.html" class="mobile-link">Contact</a>
+            <a href="https://apps.apple.com/app/id6751813522" class="btn btn-primary mobile-btn">
+                <i class="fa-brands fa-apple"></i> Download on App Store
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero section-padding" id="home">
+            <div class="container hero-container">
+                <div class="hero-content reveal-left">
+                    <div class="badge-wrapper">
+                        <span class="badge rating-badge-animated">
+                            <i class="fa-solid fa-star"></i> Rated 5.0/8 on the App Store
+                        </span>
+                    </div>
+                    <h1 class="hero-title">
+                        Code Anywhere — Right From Your iPhone
+                    </h1>
+                    <p class="hero-subtitle">
+                        Web IDE turns your iPhone or iPad into a full-featured AI-powered code editor — perfect for beginners and pros to code, debug, and deploy on the go.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="https://apps.apple.com/app/id6751813522" class="btn btn-large btn-black">
+                            <div class="btn-content">
+                                <i class="fa-brands fa-apple fa-2x"></i>
+                                <div class="btn-text-group">
+                                    <span class="btn-subtitle">Download on the</span>
+                                    <span class="btn-title">App Store</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#features" class="btn btn-text scroll-link">
+                            View Features <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                    </div>
+                    <div class="hero-trust">
+                        <div class="avatars">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Developer Portrait" class="avatar">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Developer Portrait" class="avatar">
+                            <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="Developer Portrait" class="avatar">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Developer Portrait" class="avatar">
+                        </div>
+                        <p>Trusted by 10,000+ developers</p>
+                    </div>
+                </div>
+                
+                <div class="hero-visual reveal-right">
+                    <div class="premium-screenshot">
+                        <img src="screenshots/codeeditor.png" alt="Web IDE Code Editor Interface" class="premium-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- App Preview Strip (Horizontal Scroll) -->
+        <section class="preview-strip reveal-zoom" id="preview">
+            <div class="strip-header container">
+                <h2>A Closer Look</h2>
+                <p>Swipe to explore the toolkit</p>
+            </div>
+            <div class="strip-scroll-container">
+                <div class="strip-track">
+                    <!-- Card 1 -->
+                    <div class="strip-card">
+                        <img src="screenshots/codeeditor.png" alt="Code Editor" width="280" height="580" loading="lazy">
+                        <div class="strip-overlay">
+                            <h3>Code Editor</h3>
+                            <p>Syntax highlighting &amp; autocomplete</p>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="strip-card">
+                        <img src="screenshots/livepreview.png" alt="Live Preview" width="280" height="580" loading="lazy">
+                        <div class="strip-overlay">
+                            <h3>Live Preview</h3>
+                            <p>See your changes instantly</p>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="strip-card">
+                        <img src="screenshots/aiassistant.png" alt="AI Assistant" width="280" height="580" loading="lazy">
+                        <div class="strip-overlay">
+                            <h3>AI Assistant</h3>
+                            <p>Fix bugs and generate code</p>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="strip-card">
+                        <img src="screenshots/publish.png" alt="Publish Websites" width="280" height="580" loading="lazy">
+                        <div class="strip-overlay">
+                            <h3>One-Tap Publish</h3>
+                            <p>Share your creations globally</p>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="strip-card">
+                        <img src="screenshots/terminalandgit.png" alt="Terminal &amp; Git Support" width="280" height="580" loading="lazy">
+                        <div class="strip-overlay">
+                            <h3>Terminal &amp; Git</h3>
+                            <p>Powerful CLI &amp; Version Control</p>
+                        </div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="strip-card">
+                        <img src="screenshots/webinspector.png" alt="Web Inspector" width="280" height="580" loading="lazy">
+                        <div class="strip-overlay">
+                            <h3>Web Inspector</h3>
+                            <p>Analyze any website's source</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advanced Web Editor SEO Section -->
+        <section class="advanced-editor section-padding" id="advanced-editor">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Professional Web Editor for Mobile</h2>
+                    <p class="section-subtitle">The most versatile HTML code editor for HTML, CSS, and JS, engineered to provide a desktop-grade experience on touch devices. Discover why developers call it the leading code editor app.</p>
+                </div>
+                
+                <div class="editor-capabilities-grid">
+                    <!-- Card 1: SEO-Optimized Real-time Preview -->
+                    <div class="capability-card reveal-up">
+                        <div class="capability-icon-mini">
+                            <i class="fa-solid fa-bolt-lightning"></i>
+                        </div>
+                        <div class="capability-content">
+                            <h3>Real-time HTML Preview</h3>
+                            <p>Instantly visualize your markup changes. Our high-performance rendering engine ensures that every line of code reflects accurately in the live view, making it the best web editor for rapid prototyping.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2: SEO-Optimized Debugging -->
+                    <div class="capability-card reveal-up" style="transition-delay: 0.1s;">
+                        <div class="capability-icon-mini">
+                            <i class="fa-solid fa-terminal"></i>
+                        </div>
+                        <div class="capability-content">
+                            <h3>JS Console Integration</h3>
+                            <p>Debug logic on the fly. Unlike other coding apps, Web IDE includes a native JavaScript console that tracks errors, logs output, and inspects variables in real-time, right inside your editor workspace.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 3: SEO-Optimized File Management -->
+                    <div class="capability-card reveal-up" style="transition-delay: 0.2s;">
+                        <div class="capability-icon-mini">
+                            <i class="fa-solid fa-folder-tree"></i>
+                        </div>
+                        <div class="capability-content">
+                            <h3>Full Asset Management</h3>
+                            <p>Organize your project like a pro. Manage images, scripts, and stylesheets with ease. Our file system architecture handles complex directory structures, reinforcing its status as a leading code editor app.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 4: SEO-Optimized Autocomplete -->
+                    <div class="capability-card reveal-up" style="transition-delay: 0.3s;">
+                        <div class="capability-icon-mini">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        </div>
+                        <div class="capability-content">
+                            <h3>Intelligent Autocomplete</h3>
+                            <p>Write clean code faster with context-aware suggestions for tags, properties, and functions. This professional web editor learns your patterns to minimize keystrokes on mobile keyboards.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 5: SEO-Optimized CSS Power -->
+                    <div class="capability-card reveal-up" style="transition-delay: 0.4s;">
+                        <div class="capability-icon-mini">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <div class="capability-content">
+                            <h3>CSS Preprocessor Support</h3>
+                            <p>Leverage the power of modern styling. Web IDE supports advanced CSS capabilities, ensuring your projects remain scalable and maintainable, whether you're building a landing page or a complex web app.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 6: SEO-Optimized Cloud Workflow -->
+                    <div class="capability-card reveal-up" style="transition-delay: 0.5s;">
+                        <div class="capability-icon-mini">
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                        </div>
+                        <div class="capability-content">
+                            <h3>Cross-Device Syncing</h3>
+                            <p>Start on your phone, finish on your tablet. Your code is always where you are. This seamless integration makes it the most reliable HTML code editor for HTML, CSS, and JS on the market.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Features Grid -->
+        <section class="core-features section-padding bg-light" id="features">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Everything You Need To Build Web Projects — On Mobile</h2>
+                    <p class="section-subtitle">A desktop-grade experience meticulously engineered for touch interfaces.</p>
+                </div>
+                
+                <div class="feature-grid">
+                    <!-- Feature 1 -->
+                    <div class="feature-box reveal-left">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-microchip feature-icon"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3 class="feature-title">AI-Powered Coding</h3>
+                            <p class="feature-desc">
+                                Your personal senior developer in your pocket. Our on-device AI generates robust code, refactors messy logic, finds syntax errors, and explains complex snippets in seconds.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="feature-box reveal-up">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-laptop-code feature-icon"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3 class="feature-title">Professional Code Editor</h3>
+                            <p class="feature-desc">
+                                Experience a highly optimized, desktop-like environment featuring advanced syntax highlighting, intelligent autocomplete, Git integration, and an embedded terminal.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="feature-box reveal-right">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-rocket feature-icon"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3 class="feature-title">Instant Preview &amp; Publish</h3>
+                            <p class="feature-desc">
+                                Write code and see it render immediately with Live Preview. Once perfected, deploy your website to a live URL with a single tap. No complex server configuration needed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Deep Feature Breakdown -->
+        <section class="deep-dive section-padding" id="deep-dive">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">What You Can Do With Web IDE</h2>
+                    <p class="section-subtitle">Explore the advanced capabilities that replace your laptop.</p>
+                </div>
+
+                <!-- Row 1: Code Editor -->
+                <div class="dive-row reveal-left">
+                    <div class="dive-content">
+                        <div class="dive-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                        <h3>Write &amp; Edit Code Like a Pro</h3>
+                        <p>Our editor isn't just a text box. It's a fully customized workspace designed to maximize your screen real estate and typing efficiency on mobile devices.</p>
+                        <ul class="feature-list">
+                            <li>
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <div class="list-content">
+                                    <strong>Advanced Editor UI</strong>
+                                    <span>Manage multiple files and folders intuitively.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <div class="list-content">
+                                    <strong>Intelligent Typing</strong>
+                                    <span>Syntax highlighting and smart autocomplete.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <div class="list-content">
+                                    <strong>Multi-Language</strong>
+                                    <span>Supports HTML, CSS, JS, Python, PHP, SQL, Markdown.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dive-visual">
+                        <div class="premium-screenshot">
+                            <img src="screenshots/codeeditor.png" alt="Code Editor Feature" class="premium-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: AI Assistant -->
+                <div class="dive-row reverse reveal-right">
+                    <div class="dive-content">
+                        <div class="dive-icon"><i class="fa-solid fa-robot"></i></div>
+                        <h3>Intelligent AI Assistance</h3>
+                        <p>Stuck on a bug? Need a boilerplate? Our AI assistant integrates directly into your workflow to keep you moving fast.</p>
+                        <ul class="feature-list">
+                            <li>
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <div class="list-content">
+                                    <strong>Prompt to Page</strong>
+                                    <span>Generate entire web pages from natural language prompts.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <div class="list-content">
+                                    <strong>Architect</strong>
+                                    <span>Let the AI plan your project structure and dependencies.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <div class="list-content">
+                                    <strong>Learn &amp; Grow</strong>
+                                    <span>Highlight confusing code and let the AI explain it to you.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dive-visual">
+                        <div class="premium-screenshot">
+                            <img src="screenshots/aiassistant.png" alt="AI Assistant Feature" class="premium-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 3: Publish -->
+                <div class="dive-row reveal-left">
+                    <div class="dive-content">
+                        <div class="dive-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h3>Publish Live Websites Instantly</h3>
+                        <p>From local draft to global presence in less than 5 seconds. Sharing your work has never been this frictionless.</p>
+                        <ul class="feature-list">
+                            <li>
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <div class="list-content">
+                                    <strong>One-Tap Deploy</strong>
+                                    <span>Publish your site and get a live, shareable URL immediately.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <div class="list-content">
+                                    <strong>Export Anywhere</strong>
+                                    <span>Download your entire project as a ZIP archive.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <div class="list-content">
+                                    <strong>Cloud Sync</strong>
+                                    <span>Seamlessly synchronize your projects across all your Apple devices.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dive-visual">
+                        <div class="premium-screenshot">
+                            <img src="screenshots/publish.png" alt="Publish Feature" class="premium-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 4: Terminal & Git -->
+                <div class="dive-row reverse reveal-right">
+                    <div class="dive-content">
+                        <div class="dive-icon terminal-icon-container">
+                            <svg class="terminal-svg" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <rect x="2" y="3" width="20" height="18" rx="2" ry="2"></rect>
+                                <path d="M7 8l3 3-3 3"></path>
+                                <line x1="12" y1="14" x2="17" y2="14"></line>
+                            </svg>
+                        </div>
+                        <h3>Mini Terminal &amp; Git Support</h3>
+                        <p>Powerful Terminal &amp; Git. Execute commands, manage branches, and push to GitHub without leaving your workspace.</p>
+                        <ul class="feature-list">
+                            <li>
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <div class="list-content">
+                                    <strong>Git Integration</strong>
+                                    <span>Full version control support. Clone, commit, and push with ease.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <div class="list-content">
+                                    <strong>Embedded Terminal</strong>
+                                    <span>Run shell scripts and manage your project environment directly on-device.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <div class="list-content">
+                                    <strong>GitHub Sync</strong>
+                                    <span>Connect your account and collaborate on repositories seamlessly.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dive-visual">
+                        <div class="premium-screenshot">
+                            <img src="screenshots/terminalandgit.png" alt="Mini Terminal &amp; Git Support Interface" class="premium-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Web Inspector Section -->
+        <section class="web-inspector-section section-padding bg-light" id="web-inspector">
+            <div class="container">
+                <div class="web-inspector-row reveal-left">
+                    <div class="web-inspector-content">
+                        <div class="dive-icon web-inspector-icon-container">
+                            <img src="assets/icons/web-inspector.svg" alt="Web Inspector Icon" class="web-inspector-svg-icon">
+                        </div>
+                        <h2 class="web-inspector-title">Web Inspector</h2>
+                        <p class="web-inspector-description">Effortlessly fetch and analyze the source code of any website directly from its URL, empowering deep dives into web structure and design.</p>
+                    </div>
+                    <div class="web-inspector-visual">
+                        <div class="premium-screenshot">
+                            <img src="screenshots/webinspector.png" alt="Web Inspector Interface for Code Analysis" class="premium-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Target Audience Section -->
+        <section class="audience section-padding bg-light" id="audience">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Built for Everyone — From Learners to Pros</h2>
+                    <p class="section-subtitle">Whether you're writing your first line of code or debugging a production issue on a train.</p>
+                </div>
+
+                <div class="audience-grid">
+                    <article class="audience-card reveal-up">
+                        <div class="audience-icon">
+                            <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" viewBox="0 0 24 24"><path d="M21.42 10.922a2 2 0 0 0-.019-3.838L12.83 4.32a2 2 0 0 0-1.66 0L2.6 7.08a2 2 0 0 0 0 3.832l8.57 2.75a2 2 0 0 0 1.66 0z"></path><path d="M22 10v6"></path><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path></svg>
+                        </div>
+                        <div class="audience-text">
+                            <h3 class="audience-title">Students &amp; Learners</h3>
+                            <p class="audience-desc">Learn HTML, CSS, and JS with an interactive AI tutor guiding you through every error and concept directly in your editor.</p>
+                        </div>
+                    </article>
+                    <article class="audience-card highlight reveal-up" style="transition-delay: 0.1s;">
+                        <div class="audience-icon">
+                            <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" viewBox="0 0 24 24"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+                        </div>
+                        <div class="audience-text">
+                            <h3 class="audience-title">Professional Developers</h3>
+                            <p class="audience-desc">A true fallback device. Code, debug, review pull requests, and push changes anytime, anywhere, without opening your laptop.</p>
+                        </div>
+                    </article>
+                    <article class="audience-card reveal-up" style="transition-delay: 0.2s;">
+                        <div class="audience-icon">
+                            <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1.3.5 2.6 1.5 3.5.8.8 1.3 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path></svg>
+                        </div>
+                        <div class="audience-text">
+                            <h3 class="audience-title">Makers &amp; Indie Builders</h3>
+                            <p class="audience-desc">Inspiration strikes anywhere. Turn your brilliant ideas into live landing pages and working web apps instantly from your phone.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Proof / Reviews -->
+        <section class="reviews section-padding" id="reviews">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">What Users Are Saying</h2>
+                    <div class="rating-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p class="section-subtitle">Based on verified App Store reviews.</p>
+                </div>
+
+                <div class="reviews-scroller">
+                    <div class="reviews-track marquee-track">
+                        <div class="marquee-content">
+                            <!-- Review 1 -->
+                            <div class="review-card reveal-up">
+                                <div class="review-quote">
+                                    "This changed how I code on the go. The UI is incredibly fast, intuitive, and the AI feels like magic."
+                                </div>
+                                <div class="review-author">
+                                    <div class="author-info">
+                                        <strong>Sarah J.</strong>
+                                        <span>Frontend Developer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Review 2 -->
+                            <div class="review-card reveal-up" style="transition-delay: 0.1s;">
+                                <div class="review-quote">
+                                    "I learned HTML entirely on my commute using this app. The AI explanations make complex code easy to understand."
+                                </div>
+                                <div class="review-author">
+                                    <div class="author-info">
+                                        <strong>Michael T.</strong>
+                                        <span>Student</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Review 3 -->
+                            <div class="review-card reveal-up" style="transition-delay: 0.2s;">
+                                <div class="review-quote">
+                                    "Being able to fix a quick CSS bug on my live site from my phone while at a coffee shop is a game changer."
+                                </div>
+                                <div class="review-author">
+                                    <div class="author-info">
+                                        <strong>David K.</strong>
+                                        <span>Indie Hacker</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Review 4 -->
+                            <div class="review-card reveal-up" style="transition-delay: 0.3s;">
+                                <div class="review-quote">
+                                    "The instant publish feature is flawless. It literally takes 3 seconds to get a live URL for my projects."
+                                </div>
+                                <div class="review-author">
+                                    <div class="author-info">
+                                        <strong>Emma L.</strong>
+                                        <span>UX Designer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Review 5 -->
+                            <div class="review-card reveal-up" style="transition-delay: 0.4s;">
+                                <div class="review-quote">
+                                    "Replaced my laptop for weekend trips. I can review PRs and test deployments right from my iPad. Phenomenal app."
+                                </div>
+                                <div class="review-author">
+                                    <div class="author-info">
+                                        <strong>Alex R.</strong>
+                                        <span>Full Stack Engineer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Review 6 -->
+                            <div class="review-card reveal-up" style="transition-delay: 0.5s;">
+                                <div class="review-quote">
+                                    "As an agency owner, being able to tweak copy and CSS on a client site while in transit is an absolute lifesaver."
+                                </div>
+                                <div class="review-author">
+                                    <div class="author-info">
+                                        <strong>Jessica M.</strong>
+                                        <span>Agency Owner</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="marquee-content" aria-hidden="true">
+                            <!-- Review 1 -->
+                            <div class="review-card">
+                                <div class="review-quote">
+                                    "This changed how I code on the go. The UI is incredibly fast, intuitive, and the AI feels like magic."
+                                </div>
+                                <div class="review-author">
+                                    <div class="author-info">
+                                        <strong>Sarah J.</strong>
+                                        <span>Frontend Developer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Review 2 -->
+                            <div class="review-card">
+                                <div class="review-quote">
+                                    "I learned HTML entirely on my commute using this app. The AI explanations make complex code easy to understand."
+                                </div>
+                                <div class="review-author">
+                                    <div class="author-info">
+                                        <strong>Michael T.</strong>
+                                        <span>Student</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Review 3 -->
+                            <div class="review-card">
+                                <div class="review-quote">
+                                    "Being able to fix a quick CSS bug on my live site from my phone while at a coffee shop is a game changer."
+                                </div>
+                                <div class="review-author">
+                                    <div class="author-info">
+                                        <strong>David K.</strong>
+                                        <span>Indie Hacker</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Review 4 -->
+                            <div class="review-card">
+                                <div class="review-quote">
+                                    "The instant publish feature is flawless. It literally takes 3 seconds to get a live URL for my projects."
+                                </div>
+                                <div class="review-author">
+                                    <div class="author-info">
+                                        <strong>Emma L.</strong>
+                                        <span>UX Designer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Review 5 -->
+                            <div class="review-card">
+                                <div class="review-quote">
+                                    "Replaced my laptop for weekend trips. I can review PRs and test deployments right from my iPad. Phenomenal app."
+                                </div>
+                                <div class="review-author">
+                                    <div class="author-info">
+                                        <strong>Alex R.</strong>
+                                        <span>Full Stack Engineer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Review 6 -->
+                            <div class="review-card">
+                                <div class="review-quote">
+                                    "As an agency owner, being able to tweak copy and CSS on a client site while in transit is an absolute lifesaver."
+                                </div>
+                                <div class="review-author">
+                                    <div class="author-info">
+                                        <strong>Jessica M.</strong>
+                                        <span>Agency Owner</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparison Table -->
+        <section class="comparison section-padding bg-light" id="comparison">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Why Use Web IDE Instead of a Laptop?</h2>
+                    <p class="section-subtitle">The power of desktop tools, the convenience of a smartphone.</p>
+                </div>
+
+                <div class="table-wrapper">
+                    <table class="compare-table">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Traditional Laptop</th>
+                                <th>Web IDE (Mobile)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Always in your pocket</strong></td>
+                                <td><i class="fa-solid fa-xmark text-muted"></i> No</td>
+                                <td><i class="fa-solid fa-check text-accent"></i> Yes</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Live Preview</strong></td>
+                                <td><i class="fa-solid fa-circle-exclamation text-warning"></i> Requires Setup</td>
+                                <td><i class="fa-solid fa-check text-accent"></i> Instant</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Integrated AI Assistant</strong></td>
+                                <td><i class="fa-solid fa-circle-exclamation text-warning"></i> Third-party tool</td>
+                                <td><i class="fa-solid fa-check text-accent"></i> Native</td>
+                            </tr>
+                            <tr>
+                                <td><strong>One-Tap Website Publish</strong></td>
+                                <td><i class="fa-solid fa-xmark text-muted"></i> Complex</td>
+                                <td><i class="fa-solid fa-check text-accent"></i> Built-in</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Setup Time</strong></td>
+                                <td>Hours</td>
+                                <td>Seconds</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing section-padding" id="pricing">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="badge mb-2">Simple Pricing</span>
+                    <h2 class="section-title">Choose the plan that fits your workflow</h2>
+                    <p class="section-subtitle">Free to get started, Pro to build the future.</p>
+                </div>
+
+                <div class="pricing-scroller">
+                    <div class="pricing-grid">
+                        <!-- Free Plan -->
+                        <div class="pricing-card reveal-left">
+                            <div class="card-header">
+                                <h3 class="plan-name">Starter Free</h3>
+                                <div class="plan-price">
+                                    <span class="currency">$</span>
+                                    <span class="amount">0.00</span>
+                                    <span class="period">/month</span>
+                                </div>
+                                <p class="plan-desc">Perfect for exploring. Build and preview basic HTML/CSS/JS projects on the go.</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="https://apps.apple.com/app/id6751813522" class="btn btn-pricing-secondary w-full">
+                                    Get Started Free
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Monthly Plan -->
+                        <div class="pricing-card reveal-up reveal-delay-1">
+                            <div class="card-header">
+                                <h3 class="plan-name">Pro Monthly</h3>
+                                <div class="plan-price">
+                                    <span class="currency">$</span>
+                                    <span class="amount">12.00</span>
+                                    <span class="period">/month</span>
+                                </div>
+                                <p class="plan-desc">The essential mobile coding experience. Flexible monthly access to all professional features.</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="https://apps.apple.com/app/id6751813522" class="btn btn-pricing-secondary w-full">
+                                    Subscribe Monthly
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Yearly Plan -->
+                        <div class="pricing-card highlight reveal-right reveal-delay-2">
+                            <div class="card-header">
+                                <div class="popular-badge">BEST VALUE</div>
+                                <h3 class="plan-name">Pro Yearly</h3>
+                                <div class="plan-price">
+                                    <span class="currency">$</span>
+                                    <span class="amount">79.99</span>
+                                    <span class="period">/year</span>
+                                </div>
+                                <p class="plan-desc">Unlock your full potential. Save over 44.45% compared to monthly billing.</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="https://apps.apple.com/app/id6751813522" class="btn btn-primary w-full">
+                                    Subscribe Yearly
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pro Benefits List -->
+                <div class="pro-benefits-container reveal-up">
+                    <h3 class="benefits-header">Pro Benefits Included:</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <span>Unlimited AI Code Generation</span>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <span>One-Tap Direct Site Publishing</span>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <span>Advanced Project Architecture AI</span>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <span>Ad-Free Professional Environment</span>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <span>Cloud Project Synchronization</span>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <span>Priority Support Access</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="final-cta section-padding" id="download">
+            <div class="container text-center">
+                <h2 class="cta-title">Ready to Build?</h2>
+                <p class="cta-subtitle">Join thousands of developers coding efficiently on the go.</p>
+                <div class="cta-action">
+                    <a href="https://apps.apple.com/app/id6751813522" class="btn btn-large btn-black">
+                        <div class="btn-content">
+                            <i class="fa-brands fa-apple fa-2x"></i>
+                            <div class="btn-text-group">
+                                <span class="btn-subtitle">Download on the</span>
+                                <span class="btn-title">App Store</span>
+                            </div>
+                        </div>
+                    </a>
+                    <p class="availability-note">Available on iPhone &amp; iPad</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community CTA Section -->
+        <section class="community-cta section-padding bg-dark" id="community">
+            <div class="container text-center reveal-up">
+                <h2 class="section-title">Join Our Developer Community</h2>
+                <p class="section-subtitle">Connect with thousands of makers, share your projects, and get help from experts directly in our active community.</p>
+                <div class="community-action">
+                    <a href="https://whatsapp.com/channel/0029VbBN8T76GcG5S3vmz22G" target="_blank" rel="noopener" class="btn btn-large btn-primary community-btn">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .018 5.396.015 12.03c0 2.12.554 4.189 1.602 6.006L0 24l6.149-1.613a11.77 11.77 0 005.9 1.532h.005c6.634 0 12.032-5.396 12.035-12.03a11.75 11.75 0 00-3.517-8.482z"></path></svg>
+                        Join Community
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col brand-col">
+                <a href="#" class="footer-logo">
+                    <img src="icons/webideappicon.png" alt="Web IDE Logo" class="footer-logo-img">
+                    <span class="logo-text">Web IDE</span>
+                </a>
+                <p class="footer-desc">The most advanced, AI-powered mobile code editor for your web projects.</p>
+                <div class="social-links">
+                    <a href="https://x.com/Chuyongglean" aria-label="X (Twitter)" target="_blank" rel="noopener">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+                    </a>
+                    <a href="https://github.com/Chuyongglean" aria-label="GitHub" target="_blank" rel="noopener">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                    <a href="https://facebook.com/Chuyongglean.1" aria-label="Facebook" target="_blank" rel="noopener">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Product</h4>
+                <ul class="footer-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#preview">Screenshots</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#comparison">Compare</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="pages/about.html">About Us</a></li>
+                    <li><a href="pages/privacy.html" class="footer-legal-link">Privacy Policy</a></li>
+                    <li><a href="pages/terms.html" class="footer-legal-link">Terms &amp; Conditions</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© <script>document.write(new Date().getFullYear())</script> Web IDE. All rights reserved.</p>
+            <div class="footer-contact-group">
+                <p class="contact-email">
+                    <a href="mailto:webideapp@gmail.com">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        webideapp@gmail.com
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+
+<script src="web/sw.js"></script></body></html>
