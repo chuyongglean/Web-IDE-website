@@ -1,0 +1,35 @@
+{
+  "project": {
+    "name": "Web IDE Professional",
+    "version": "1.1.0",
+    "author": "Elite Senior Software Engineer",
+    "description": "A high-performance, AI-driven mobile development environment."
+  },
+  "editor": {
+    "tabSize": 2,
+    "theme": "Elite Minimalist",
+    "fontScale": 1.1,
+    "syntaxHighlighting": true,
+    "lineNumbers": true,
+    "wordWrap": "on"
+  },
+  "features": {
+    "aiAssistant": true,
+    "pwa": true,
+    "gitIntegration": true,
+    "livePreview": true,
+    "onDeviceAi": true
+  },
+  "themeTokens": {
+    "eliteMatrix": {
+      "primary": "#000000",
+      "secondary": "#475569",
+      "accent": "#9FEF00",
+      "background": "#FFFFFF",
+      "surface": "#F5F5F7",
+      "border": "rgba(0, 0, 0, 0.08)",
+      "error": "#FF3B30",
+      "success": "#34C759"
+    }
+  }
+}
